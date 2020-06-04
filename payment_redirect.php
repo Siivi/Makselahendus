@@ -1,7 +1,7 @@
-<?php 
+<?php
 session_start();
 ?>
-<form method='POST' action="<?php echo $_POST["payment_method"]==="SEBBank" ? "pay.php":"pay_seb.php"?>"id="form">
+<form method='POST' action="<?php echo $_POST["payment_method"] === "SEBBank" ? "pay.php" : "pay_seb.php" ?>" id="form">
     <div class="form-group row">
         <label for="firstname" class="col-sm-2 col-form-label">Eesnimi</label>
         <div class="col-sm-10">

@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-require "header.php";
+require "./header.php";
 ?>
 
 <div class="">
@@ -10,5 +10,5 @@ require "header.php";
 <a href="order.php" class="btn btn-primary mt-4">Uuesti tellima</a>
 <?php
  session_destroy();
- require "footer.php";
+ require "./footer.php";
 ?>
